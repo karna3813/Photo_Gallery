@@ -1,0 +1,18 @@
+GET http://localhost:8000/
+
+
+###
+GET http://localhost:8000/u/
+id: anirudha
+###
+
+POST http://localhost:8000/upload
+content-type: application/json
+
+{
+    "uid": "anirudha",
+    "photoURL": "imageurl",
+    "ext": "png",
+    "size": "400",
+    "public" : true
+}
